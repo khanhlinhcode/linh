@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Silver Elegance</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+    <header>
+        <h1>Silver Elegance</h1>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="search-bar">
+                <form>
+                    <input type="search" id="search-input" placeholder="Tìm kiếm sản phẩm...">
+                    <button type="submit">Tìm kiếm</button>
+                </form>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home">
+        <h2>Welcome to Silver Elegance</h2>
+    </section>
+
+    <section id="products">
+        <!-- <h2>Our Products</h2> -->
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product">
+                <img src="./images/1.1.png" alt="Dây chuyền nữ mặt cánh bướm DoLee Silver bạc 925">
+                <h3>Dây chuyền nữ mặt cánh bướm DoLee Silver bạc 925</h3>
+                <p>478,000 VND</p>
+                <button onclick="viewProduct('Dây chuyền nữ mặt cánh bướm DoLee Silver bạc 925', 'Dây chuyền bạc 925 an toàn cho da, chiều dài điều chỉnh 40+5cm. Tránh va đập và tiếp xúc với chất tẩy rửa mạnh.', '478,000 VND')">Mua ngay</button>
+            </div>
+                
+            <!-- Product 2 -->
+            <div class="product">
+                <img src="./images/1.2.png" alt="Dây chuyền bạc KYDOPAL">
+                <h3>Dây chuyền bạc KYDOPAL</h3>
+                <p>325,000 VND</p>
+                <button onclick="viewProduct('Dây chuyền bạc KYDOPAL', 'Bạc 925 cao cấp, thiết kế theo xu hướng mới nhất. Phối dễ dàng với nhiều phụ kiện.', '325,000 VND')">Mua ngay</button>
+            </div>
+            <!-- Product 3 -->
+            <div class="product">
+                <img src="./images/1.4.png" alt="Lắc tay bạc KYDOPAL charm nơ đính đá">
+                <h3>Lắc tay bạc KYDOPAL charm nơ đính đá</h3>
+                <p>299,000 VND</p>
+                <button onclick="viewProduct('Lắc tay bạc KYDOPAL charm nơ đính đá', 'Bạc S925, thiết kế tinh tế. Bảo quản và vệ sinh để giữ sản phẩm luôn sáng bóng.', '299,000 VND')">Mua ngay</button>
+            </div>
+    
+            <!-- Product 4 -->
+            <div class="product">
+                <img src="./images/1.3.png" alt="Dây chuyền cuban nam bằng bạc thật bản đặc cá tính">
+                <h3>Dây chuyền cuban nam bằng bạc thật</h3>
+                <p>7,200,000 VND</p>
+                <button onclick="viewProduct('Dây chuyền cuban nam bằng bạc thật', 'Bạc nguyên chất 925, trọng lượng gần 6 cây, bảo hành trọn đời.', '7,200,000 VND')">Mua ngay</button>
+            </div>
+            <!-- Product 5 -->
+            <div class="product">
+                <img src="./images/1.5.png" alt="Nhẫn bạc nam kim cương Moissanite xi vàng trắng">
+                <h3>Nhẫn bạc nam kim cương Moissanite</h3>
+                <p>3,000,000 VND</p>
+                <button onclick="viewProduct('Nhẫn bạc nam kim cương Moissanite', 'Bạc 925 xi mạ bạch kim, kim cương Moissanite 4 carat, kiểm định GRA.', '3,000,000 VND')">Mua ngay</button>
+            </div>
+    
+            <!-- Add more products here -->
+
+            <!-- Product 6 -->
+            <div class="product">
+                <img src="./images/1.6.png" alt="Khuyên Tai Dài Đính Đá Dang Trọng">
+                <h3>Khuyên Tai Dài Đính Đá Dang Trọng</h3>
+                <p>2,100,000 VND</p>
+                <button onclick="viewProduct('Khuyên Tai Dài Đính Đá Dang Trọng', 'Bạc Ý 925, khuyên tai dài đính nhiều loại đá CZ trắng, tổng chiều dài 43mm.', '2,100,000 VND')">Mua ngay</button>
+            </div>
+        
+            <!-- Product 7 -->
+            <div class="product">
+                <img src="./images/1.7.png" alt="Nhẫn nữ kim cương Moissanite LAVESTA KC23">
+                <h3>Nhẫn nữ kim cương Moissanite LAVESTA KC23</h3>
+                <p>1,550,000 VND</p>
+                <button onclick="viewProduct('Nhẫn nữ kim cương Moissanite LAVESTA KC23', 'Bạc xi bạch kim, kim cương nhân tạo Moissanite 7-8 ly, bảo hành đánh sáng trọn đời.', '1,550,000 VND')">Mua ngay</button>
+            </div>
+        
+            <!-- Product 8 -->
+            <div class="product">
+                <img src="./images/1.8.png" alt="Lắc tay Bạc STYLE By PNJ Unisex">
+                <h3>Lắc tay Bạc STYLE By PNJ Unisex</h3>
+                <p>1,760,000 VND</p>
+                <button onclick="viewProduct('Lắc tay Bạc STYLE By PNJ Unisex', 'Bạc, không gắn đá, thiết kế phá cách và ứng dụng cao.', '1,760,000 VND')">Mua ngay</button>
+            </div>
+        
+            <!-- Product 9 -->
+            <div class="product">
+                <img src="./images/1.9.png" alt="Bông tai cưới Vàng trắng 10K đính đá ECZ PNJ Bạch Khổng Tước">
+                <h3>Bông tai cưới Vàng trắng 10K đính đá ECZ PNJ</h3>
+                <p>8,700,000 VND</p>
+                <button onclick="viewProduct('Bông tai cưới Vàng trắng 10K đính đá ECZ PNJ', 'Vàng 10K, xoàn mỹ, 184 viên đá phụ, 2 viên đá chính, thiết kế tinh xảo.', '8,700,000 VND')">Mua ngay</button>
+            </div>
+        
+            <!-- Product 10 -->
+            <div class="product">
+                <img src="./images/1.10.png" alt="Lắc tay bạc nữ/nam cuban đính kim cương Moissanite">
+                <h3>Lắc tay bạc nữ/nam cuban đính kim cương Moissanite</h3>
+                <p>10,100,000 VND</p>
+                <button onclick="viewProduct('Lắc tay bạc nữ/nam cuban đính kim cương Moissanite', 'Bạc S925, đính kim cương Moissanite, thiết kế tinh xảo, hoàn thiện xuất sắc.', '10,100,000 VND')">Mua ngay</button>
+            </div>
+            <!-- Product 11 -->
+            <div class="product">
+                <img src="./images/1.11.png" alt="Bông tai bạc đính đá Silver">
+                <h3>Bông tai bạc đính đá Silver</h3>
+                <p>10,300,000 VND</p>
+                <button onclick="viewProduct('Bông tai bạc đính đá Silver', 'Giới tính: Nữ, Loại đá chính: Xoàn mỹ, Hình dạng: Tròn, Trọng lượng: 2.10597, Hàm lượng chất liệu: 9300.','10,300,000 VND')">Mua ngay</button>
+            </div>
+                <!-- Product 12 -->
+            <div class="product">
+                <img src="./images/1.12.png" alt="Dây cổ Bạc đính đá Silver">
+                <h3>Dây cổ Bạc đính đá Silver</h3>
+                <p>10,925,000 VND</p>
+                <button onclick="viewProduct('Dây cổ Bạc đính đá Silver', 'Giới tính: Nữ, Loại đá chính: Xoàn mỹ, Loại đá phụ: Xoàn mỹ, Trọng lượng: 6.32191, Hàm lượng chất liệu: 9250.', '10,925,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 13 -->
+            <div class="product">
+                <img src="./images/1.13.png" alt="Dây chuyền bạc Silver">
+                <h3>Dây chuyền bạc Silver</h3>
+                <p>9,930,000 VND</p>
+                <button onclick="viewProduct('Dây chuyền bạc Silver', 'Giới tính: Trẻ em, Không gắn đá, Trọng lượng: 2.95304, Hàm lượng chất liệu: 9300.', '9,930,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 14 -->
+            <div class="product">
+                <img src="./images/1.14.png" alt="Vòng tay bạc Ý đính đá Silver">
+                <h3>Vòng tay bạc Ý đính đá Silver</h3>
+                <p>10,930,000 VND</p>
+                <button onclick="viewProduct('Vòng tay bạc Ý đính đá Silver', 'Giới tính: Nữ, Không gắn đá, Trọng lượng: 8.75584, Hàm lượng chất liệu: 9300.', '10,930,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 15 -->
+            <div class="product">
+                <img src="./images/1.15.png" alt="Nhẫn Bạc">
+                <h3>Nhẫn Bạc </h3>
+                <p>12,925,000 VND</p>
+                <button onclick="viewProduct('Nhẫn Bạc', 'Giới tính: Nữ, Loại đá chính: Synthetic, Loại đá phụ: Xoàn mỹ, Màu đá phụ: Trắng, Trọng lượng: 7.45169, Hàm lượng chất liệu: 9250.','12,925,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 16 -->
+            <div class="product">
+                <img src="./images/1.16.png" alt="Bông tai bạc Silver">
+                <h3>Bông tai bạc Silver</h3>
+                <p>8,930,000 VND</p>
+                <button onclick="viewProduct('Bông tai bạc Silver', 'Giới tính: Trẻ em, Không gắn đá, Trọng lượng: 3.67637, Hàm lượng chất liệu: 9300.', '8,930,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 17 -->
+            <div class="product">
+                <img src="./images/1.17.png" alt="Bông tai ngọc trai">
+                <h3>Bông tai ngọc trai</h3>
+                <p>12,930,000 VND</p>
+                <button onclick="viewProduct('Bông tai ngọc trai', 'Giới tính: Nữ, Loại đá chính: Freshwater Pearl, Trọng lượng: 1.4057, Hàm lượng chất liệu: 9300, Cut: Cabochon.','12,930,000 VND')">Mua ngay</button>
+            </div>
+    
+            <!-- Product 18 -->
+            <div class="product">
+                <img src="./images/1.18.png" alt="Bông tai silver ngôi sao đính kim cương nhân tạo">
+                <h3>Bông tai silver ngôi sao đính kim cương nhân tạo</h3>
+                <p>9,930,000 VND</p>
+                <button onclick="viewProduct('Bông tai silver ngôi sao đính kim cương nhân tạo', 'Giới tính: Nữ, Loại đá chính: CZ, Hình dạng: Tròn, Trọng lượng: 2.27674, Hàm lượng chất liệu: 9300, Cut: Facet.','9,930,000 VND')">Mua ngay</button>
+            </div>
+    
+            <!-- Product 19 -->
+            <div class="product">
+                <img src="./images/1.19.png" alt="Bông tai đơn nam đính">
+                <h3>Bông tai đơn nam đính</h3>
+                <p>4,560,000 VND</p>
+                <button onclick="viewProduct('Bông tai đơn nam đính', 'Giới tính: Nam, Loại đá chính: CZ, Hình dạng: Tròn, Trọng lượng: 1.41621, Hàm lượng chất liệu: 9300, Cut: Facet.', '4,560,000 VND')">Mua ngay</button>
+            </div>
+    
+            <!-- Product 20 -->
+            <div class="product">
+                <img src="./images/1.20.png" alt="Bông tai pirate">
+                <h3>Bông tai pirate</h3>
+                <p>11,300,000 VND</p>
+                <button onclick="viewProduct('Bông tai pirate', 'Giới tính: Nữ, Loại đá chính: CZ, Hình dạng: Tròn, Trọng lượng: 2.80208, Hàm lượng chất liệu: 9300, Cut: Facet, Số viên đá phụ: 28.', '11,300,000 VND')">Mua ngay</button>
+            </div>
+    
+            <!-- Product 21 -->
+            <div class="product">
+                <img src="./images/1.21.png" alt="Bông tai starfish">
+                <h3>Bông tai starfish</h3>
+                <p>5,930,000 VND</p>
+                <button onclick="viewProduct('Bông tai starfish', 'Giới tính: Nữ, Loại đá chính: Xoàn mỹ, Hình dạng: Tròn, Trọng lượng: 3.6138, Hàm lượng chất liệu: 9300, Cut: Facet, Số viên đá phụ: 28.','5,930,000 VND')">Mua ngay</button>
+            </div>
+    
+            <!-- Product 22 -->
+            <div class="product">
+                <img src="./images/1.22.png" alt="Dây chuyền đính đá">
+                <h3>Dây chuyền đính đá</h3>
+                <p>9,930,000 VND</p>
+                <button onclick="viewProduct('Dây chuyền đính đá', 'Giới tính: Nữ, Loại đá chính: Xoàn mỹ, Hình dạng: Tròn, Trọng lượng: 6.17488, Hàm lượng chất liệu: 9300, Cut: Facet, Số viên đá phụ: 14.','9,930,000 VND')">Mua ngay</button>
+            </div>
+            <!-- Product 23 -->
+            <div class="product">
+                <img src="./images/1.23.jpg" alt="Dây chuyền bạc">
+                <h3>Dây chuyền bạc</h3>
+                <p>8,416,000 VND</p>
+                <button onclick="viewProduct('Dây chuyền bạc', 'Giới tính: Nam, Loại đá chính: Không gắn đá, Trọng lượng: 36.53891, Hàm lượng chất liệu: 4160.', '8,416,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 24 -->
+            <div class="product">
+                <img src="./images/1.24.png" alt="Lắc bạc khảm diamond">
+                <h3>Lắc bạc khảm diamond</h3>
+                <p>4,930,000 VND</p>
+                <button onclick="viewProduct('Lắc bạc khảm diamond', 'Giới tính: Nữ, Loại đá chính: CZ, Hình dạng: Tròn, Trọng lượng: 5.43526, Hàm lượng chất liệu: 9300, Cut: Facet, Số viên đá chính: 16.', '4,930,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 25 -->
+            <div class="product">
+                <img src="./images/1.25.png" alt="Lắc bạc trái tim">
+                <h3>Lắc bạc trái tim</h3>
+                <p>3,900,000 VND</p>
+                <button onclick="viewProduct('Lắc bạc trái tim', 'Giới tính: Nữ, Loại đá chính: CZ, Hình dạng: Trái tim, Trọng lượng: 6.02209, Hàm lượng chất liệu: 9300, Cut: Facet, Số viên đá phụ: 12.','3,900,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 26 -->
+            <div class="product">
+                <img src="./images/1.26.png" alt="Vòng tai heart đính diamond">
+                <h3>Vòng tai heart đính diamond</h3>
+                <p>3,700,000 VND</p>
+                <button onclick="viewProduct('Vòng tai heart đính diamond', 'Giới tính: Nữ, Loại đá chính: CZ, Hình dạng: Tròn, Trọng lượng: 7.47659, Hàm lượng chất liệu: 9300, Cut: Facet, Số viên đá phụ: 15.','3,700,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 27 -->
+            <div class="product">
+                <img src="./images/1.27.png" alt="Nhẫn nữ đính đá xung quanh">
+                <h3>Nhẫn nữ đính đá xung quanh</h3>
+                <p>9,300,000 VND</p>
+                <button onclick="viewProduct('Nhẫn nữ đính đá xung quanh', 'Giới tính: Nữ, Loại đá chính: CZ, Trọng lượng: 3.78792, Hàm lượng chất liệu: 9300','9,300,000 VND')">Mua ngay</button>
+            </div>
+
+            <!-- Product 28 -->
+            <div class="product">
+                <img src="./images/1.28.png" alt="Nhẫn nam khảm black diamond">
+                <h3>Nhẫn nam khảm black diamond</h3>
+                <p>6,300,000 VND</p>
+                <button onclick="buynow('Nhẫn nam khảm black diamond', 'Giới tính: Nam, Loại đá chính: Không gắn đá, Trọng lượng: 14.617, Hàm lượng chất liệu: 9300.','6,300,000 VND')">Mua Ngay</button>
+            </div>
+
+            <!-- Product 29 -->
+            <div class="product">
+                <img src="./images/1.29.png" alt="Nhẫn nam đính diamond">
+                <h3>Nhẫn nam đính diamond</h3>
+                <p>9,250,000 VND</p>
+                <button onclick="buynow('Nhẫn nam đính diamond', 'Giới tính: Nam, Loại đá chính: Xoàn mỹ, Trọng lượng: 13.36909, Hàm lượng chất liệu: 9250.', '9,250,000 VND')">Mua Ngay</button>
+            </div>
+
+            <!-- Product 30 -->
+            <div class="product">
+                <img src="./images/1.31.png" alt="Nhẫn nam silver">
+                <h3>Nhẫn nam silver</h3>
+                <p>9,250,000 VND</p>
+                <button onclick="buynow('Nhẫn nam silver', 'Giới tính: Nam, Loại đá chính: Xoàn mỹ, Trọng lượng: 16.38534, Hàm lượng chất liệu: 9250.','9,250,000 VND')">Mua ngay</button>
+            </div>
+            
+               
+        </div>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+    <script src="./js/main.js"></script>
+</body>
+</html>
